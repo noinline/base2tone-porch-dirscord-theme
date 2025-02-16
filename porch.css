@@ -357,6 +357,7 @@ html {
 	--primary-100: #5c5f77;
 	--primary-300: #5c5f77;
 	--primary-400: #5c5f77;
+	--primary-630: #221e24;
 	--primary-dark-700: #302a32;
 	--primary-800: #302a32;
 	--status-green-560: #9466a3;
@@ -452,7 +453,7 @@ html {
 	--spoiler-hidden-background: #574e5a;
 	--android-navigation-bar-background: #302a32;
 	--android-ripple: rgba(220, 224, 232, 0.3);
-	--deprecated-card-bg: rgba(220, 224, 232, 0.6);
+	--deprecated-card-bg: #302a32;
 	--deprecated-card-editable-bg: rgba(220, 224, 232, 0.3);
 	--bg-mod-faint: #302a32;
 	--bg-mod-subtle: #645a68;
@@ -1904,7 +1905,7 @@ div[class^=chat]>div[class^=content]>div[class^=container] div[class^=newBadge] 
 }
 
 div[class^=chat]>div[class^=content]>div[class^=container] div[class*=mainCard_] {
-	background-color: #645a68
+	background-color: #302a32
 }
 
 div[class^=sidebar]>section[class^=panels] svg[class*=buttonIcon_],
@@ -2900,6 +2901,14 @@ rect[fill="#5b3a91"] {
 
 .vc-user-connection [src="/assets/eaeac24163b35f7526704a3d9b3c7722.svg"] {
 	padding: 16px
+}
+
+div.formNotice_f43ba5.marginBottom40_fd297e.cardPrimary__73069.card__73069 {
+    background-color: #302a32 !important;
+}
+
+div.tabBar__133bf.topPill_b3f026 > div.item__133bf.item_b3f026.selected_b3f026.themed_b3f026 {
+    background-color: #302a32 !important;
 }
 
 #vencordthemes-tab [class*=input_]:focus {
